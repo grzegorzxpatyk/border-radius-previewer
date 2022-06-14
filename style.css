@@ -5,6 +5,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -19,4 +20,8 @@ body {
         rgba(253, 29, 29, 1) 50%,
         rgba(252, 176, 69, 1) 100%
     );
+}
+
+#border-radius-slider {
+    width: 50%;
 }
